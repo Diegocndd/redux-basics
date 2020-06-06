@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
 import {View, Text, Button, StyleSheet, Dimensions} from 'react-native';
+import Display from './components/Display';
+import Box from './components/Box';
 
-class App extends Component{
+export default class App extends Component{
     
     render(){
-        const { newValue } = this.props.clickButton(8);
         return(
             <View>
-                <Text style={styles.textStore}>
-                    Studing React-Native
-                </Text>
+                <Display />
+                <Box />
             </View>
         )
     }

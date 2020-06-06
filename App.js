@@ -5,14 +5,14 @@ import {
 } from 'react-native';
 import Application from './src';
 import {Provider} from 'react-redux';
-import {Store} from './src/store';
+import {Store} from './src/reduxControll/store';
 
 export default class App extends Component{
 
   render(){
     return(
       <Provider store={Store}>
-      <Application />
+        <Application />
       </Provider>
       )
   }
