@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import { changeNumber } from './changeNumber';
+import { nigthMode } from './nigthMode';
 
 export const Reducers = combineReducers({
 
-    changeNumber : changeNumber
+    nigthMode : nigthMode
 
 });
