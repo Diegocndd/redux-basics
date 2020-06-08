@@ -1,9 +1,6 @@
-export const incrementNumber = value => ({
-    type: 'INCREMENT_NUMBER_UPDATE',
-    newValue : value
+export const nigthMode = type => ({
+    type: type,
+    textValue : '#FFFFFF',
+    titleValue : '#FFFFFF',
+    backgroundValue : '#000000'
 });
-
-export const decrementNumber = value => ({
-    type: 'DECREMENT_NUMBER_UPDATE',
-    newValue : value
-})
